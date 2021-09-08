@@ -1,0 +1,145 @@
+.tab {
+  padding-top: 5px;
+  margin-bottom: 1px;
+  width: 100vw;
+  color: #fff;
+  overflow: hidden;
+ 
+ 
+}
+
+.tab p {
+    color: aliceblue;
+}
+.tab input {
+  position: absolute;
+  opacity: 0;
+    
+}
+
+p {
+  padding-top: 0px;
+  padding-bottom: 10px;
+}
+
+.tab label {
+  
+  border-radius: 35px;
+  position: relative;
+  display: block;
+  padding: 0 0 0 1em;
+ background: -webkit-linear-gradient(top, #000000 0%, #4c4e5a 30%, #000000 100%);
+  background:    -moz-linear-gradient(top, #000000 0%, #4c4e5a 30%, #000000 100%);
+  background:      -o-linear-gradient(top, #000000 0%, #4c4e5a 30%, #000000 100%);
+  background:     -ms-linear-gradient(top, #000000 0%, #4c4e5a 30%, #000000 100%);
+  background:         linear-gradient(top, #000000 0%, #4c4e5a 30%, #000000 100%); 
+  font-weight: bold;
+  line-height: 1.5;
+  cursor: pointer;
+  font-size: 20px;
+  text-transform: uppercase;
+  padding-top: 1vw;
+    
+transition: 1s
+}
+
+
+.tab-content {
+    width: 100vw;
+  border-radius: 5px;
+    
+
+  max-height: 0;
+  overflow: hidden;
+  color: black;
+    
+  text-transform: lowercase;
+  -webkit-transition: max-height 1.35s;
+  -o-transition: max-height 1.35s;
+  transition: max-height 1.35s;
+  font-size: 20px;
+  transition: 1s;
+     /*   background: -webkit-linear-gradient(top, #000000 0%, #ce68f9 30%, #000000 100%);
+  background:    -moz-linear-gradient(top, #000000 0%, #ce68f9 30%, #fff 100%);
+  background:      -o-linear-gradient(top, #000000 0%, #ce68f9 30%, #fff 100%);
+  background:     -ms-linear-gradient(top, #000000 0%, #ce68f9 30%, #fff 100%);
+  background:         linear-gradient(top, #000000 0%, #ce68f9 30%, #fff 100%);*/
+    background: rgba(256, 256, 256, .2)
+}
+.tab-content label{
+    background: -webkit-linear-gradient(top, #000000 0%, #4c4e5a 30%, #000000 100%);
+  background:    -moz-linear-gradient(top, #000000 0%, #4c4e5a 10%, #000000 100%);
+  background:      -o-linear-gradient(top, #000000 0%, #4c4e5a 10%, #000000 100%);
+  background:     -ms-linear-gradient(top, #000000 0%, #4c4e5a 10%, #000000 100%);
+  background:         linear-gradient(top, #000000 0%, #4c4e5a 10%, #000000 100%); 
+}
+
+
+
+.blue .tab-content {
+  background: -webkit-linear-gradient(top, #000000 0%, red 30%, #000000 100%);
+  background:    -moz-linear-gradient(top, #000000 0%, red 30%, #000000 100%);
+  background:      -o-linear-gradient(top, #000000 0%, red 30%, #000000 100%);
+  background:     -ms-linear-gradient(top, #000000 0%, red 30%, #000000 100%);
+  background:         linear-gradient(top, #000000 0%, red 30%, #000000 100%); 
+}
+
+.tab-content p {
+  margin: 1em;
+}
+
+/* длина выклыдки 2го уровня */
+.tab input:checked ~ .tab-content {
+  max-height: 2000vh;
+}
+
+
+/* иконка */
+.tab label::after {
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: block;
+  width: 3em;
+  height: 3em;
+  line-height: 2.0;
+  text-align: center;
+  -webkit-transition: all .35s;
+  -o-transition: all .35s;
+  transition: all .35s;
+  
+}
+
+.tab:hover {
+  color: #6897f9;
+}
+
+.tab input[type=checkbox] + label::after {
+  content: "+";
+}
+
+.tab input[type=radio] + label::after {
+  content: "\25BC";
+}
+
+.tab input[type=checkbox]:checked + label::after {
+  transform: rotate(315deg);
+  
+}
+
+.tab input[type=radio]:checked + label::after {
+  transform: rotateX(180deg);
+}
+
+.wrapper {
+  margin-top: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  
+}
+
+
+

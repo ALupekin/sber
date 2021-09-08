@@ -1,0 +1,59 @@
+body {
+      background-color: black;
+  background-size: 100%; 
+    font-family: monospace;
+    font: #fff
+}
+.tit {
+    color: aliceblue;
+    font-size: 60px;
+    font-family: fantasy;
+}
+.tit2 {
+    color: aliceblue;
+    font-size: 60px;
+    font-family: fantasy;
+    margin-left: 23vw;
+}
+.menu-list {
+    display: inline-flex;
+    margin-top: 1vh;
+    width: 100vw;
+    margin-left: -4.5vw
+}
+
+.menu-item {
+    list-style-type: none;
+    padding-top: 20px;
+    padding-left: 20px;
+    
+    width: 100vw;
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom-left-radius: 20px;
+  background: -webkit-linear-gradient(top, #000000 0%, #4c4e5a 30%, #000000 100%);
+  background:    -moz-linear-gradient(top, #000000 0%, #4c4e5a 30%, #000000 100%);
+  background:      -o-linear-gradient(top, #000000 0%, #4c4e5a 30%, #000000 100%);
+  background:     -ms-linear-gradient(top, #000000 0%, #4c4e5a 30%, #000000 100%);
+  background:         linear-gradient(top, #000000 0%, #4c4e5a 30%, #000000 100%);
+}
+.menu-item a {
+    color: aliceblue;
+    text-decoration: none;
+}
+.pdf1 {
+  width: 75vw;
+  height: 80vh;
+margin-left:9vw;
+  margin-top: 1vh
+}
+.pdf iframe {
+  width: 100%;
+}
+.pdf2 {
+  width: 86vw;
+  height: 60vh;
+margin-left: 5vw;
+  margin-top: 1vh
+}
