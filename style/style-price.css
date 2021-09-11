@@ -4,12 +4,13 @@
   width: 100vw;
   color: #fff;
   overflow: hidden;
- 
+  margin-top: -30px;
  
 }
 
 .tab p {
     color: aliceblue;
+    font-size: 30px;
 }
 .tab input {
   position: absolute;
@@ -28,7 +29,7 @@ p {
   position: relative;
   display: block;
   padding: 0 0 0 1em;
- background: -webkit-linear-gradient(top, #000000 0%, #4c4e5a 30%, #000000 100%);
+  background: -webkit-linear-gradient(top, #000000 0%, #4c4e5a 30%, #000000 100%);
   background:    -moz-linear-gradient(top, #000000 0%, #4c4e5a 30%, #000000 100%);
   background:      -o-linear-gradient(top, #000000 0%, #4c4e5a 30%, #000000 100%);
   background:     -ms-linear-gradient(top, #000000 0%, #4c4e5a 30%, #000000 100%);
@@ -38,34 +39,35 @@ p {
   cursor: pointer;
   font-size: 20px;
   text-transform: uppercase;
-  padding-top: 1vw;
-    
-transition: 1s
+  padding-top: 1vw;    
+  transition: 1s
 }
 
 
-.tab-content {
-    width: 100vw;
-  border-radius: 5px;
-    
 
+.tab-content {
+  width: 100vw;
+  border-radius: 5px; 
   max-height: 0;
   overflow: hidden;
   color: black;
-    
+  padding-top: 20px;
   text-transform: lowercase;
   -webkit-transition: max-height 1.35s;
   -o-transition: max-height 1.35s;
   transition: max-height 1.35s;
   font-size: 20px;
   transition: 1s;
-     /*   background: -webkit-linear-gradient(top, #000000 0%, #ce68f9 30%, #000000 100%);
+  /*background: -webkit-linear-gradient(top, #000000 0%, #ce68f9 30%, #000000 100%);
   background:    -moz-linear-gradient(top, #000000 0%, #ce68f9 30%, #fff 100%);
   background:      -o-linear-gradient(top, #000000 0%, #ce68f9 30%, #fff 100%);
   background:     -ms-linear-gradient(top, #000000 0%, #ce68f9 30%, #fff 100%);
   background:         linear-gradient(top, #000000 0%, #ce68f9 30%, #fff 100%);*/
-    background: rgba(256, 256, 256, .2)
+  background: rgba(256, 256, 256, .2)
 }
+
+
+
 .tab-content label{
     background: -webkit-linear-gradient(top, #000000 0%, #4c4e5a 30%, #000000 100%);
   background:    -moz-linear-gradient(top, #000000 0%, #4c4e5a 10%, #000000 100%);
@@ -84,13 +86,14 @@ transition: 1s
   background:         linear-gradient(top, #000000 0%, red 30%, #000000 100%); 
 }
 
+
 .tab-content p {
   margin: 1em;
 }
 
 /* длина выклыдки 2го уровня */
 .tab input:checked ~ .tab-content {
-  max-height: 2000vh;
+  max-height: 3000vh;
 }
 
 
@@ -101,7 +104,7 @@ transition: 1s
   top: 0;
   display: block;
   width: 3em;
-  height: 3em;
+  height: 4em;
   line-height: 2.0;
   text-align: center;
   -webkit-transition: all .35s;
@@ -137,9 +140,67 @@ transition: 1s
 
 a {
   text-decoration: none;
-  color: #fff;
-  
+  color: #fff;  
 }
 
+.tab2 label {
+  width: 90vw;
+  border-radius: 35px;
+  position: relative;
+  display: block;
+  padding: 0 0 0 1em;
+  background: -webkit-linear-gradient(top, #000000 0%, #00CC00 30%, #000000 100%);
+  background:    -moz-linear-gradient(top, #000000 0%, #00CC00 30%, #000000 100%);
+  background:      -o-linear-gradient(top, #000000 0%, #00CC00 30%, #000000 100%);
+  background:     -ms-linear-gradient(top, #000000 0%, #00CC00 30%, #000000 100%);
+  background:         linear-gradient(top, #000000 0%, #00CC00 30%, #000000 100%); 
+  font-weight: bold;
+  line-height: 1.5;
+  cursor: pointer;
+  font-size: 25px;
+  text-transform: uppercase;
+  padding-top: 1vw;    
+  transition: 1s;
+ margin-left: auto;
+}
 
+.tab3 label {
+  width: 80vw;
+  border-radius: 35px;
+  position: relative;
+  display: block;
+  padding: 0 0 0 1em;
+  background: -webkit-linear-gradient(top, #000000 0%, #00CC00 30%, #000000 100%);
+  background:    -moz-linear-gradient(top, #000000 0%, #00CC00 30%, #000000 100%);
+  background:      -o-linear-gradient(top, #000000 0%, #00CC00 30%, #000000 100%);
+  background:     -ms-linear-gradient(top, #000000 0%, #00CC00 30%, #000000 100%);
+  background:         linear-gradient(top, #000000 0%, #00CC00 30%, #000000 100%); 
+  font-weight: bold;
+  line-height: 1.5;
+  cursor: pointer;
+  font-size: 25px;
+  text-transform: uppercase;
+  padding-top: 1vw;    
+  transition: 1s
+}
+
+.tab4 label {
+  width: 70vw;
+  border-radius: 35px;
+  position: relative;
+  display: block;
+  padding: 0 0 0 1em;
+  background: -webkit-linear-gradient(top, #000000 0%, #00CC00 30%, #000000 100%);
+  background:    -moz-linear-gradient(top, #000000 0%, #00CC00 30%, #000000 100%);
+  background:      -o-linear-gradient(top, #000000 0%, #00CC00 30%, #000000 100%);
+  background:     -ms-linear-gradient(top, #000000 0%, #00CC00 30%, #000000 100%);
+  background:         linear-gradient(top, #000000 0%, #00CC00 30%, #000000 100%); 
+  font-weight: bold;
+  line-height: 1.5;
+  cursor: pointer;
+  font-size: 25px;
+  text-transform: uppercase;
+  padding-top: 1vw;    
+  transition: 1s
+}
 

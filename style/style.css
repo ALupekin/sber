@@ -19,16 +19,19 @@ body {
     display: inline-flex;
     margin-top: 1vh;
     width: 100vw;
-    margin-left: -4.5vw
+    margin-left: -4.5vw;
+       
 }
-
+.menu {
+   margin-bottom: 60px;
+}
 .menu-item {
     list-style-type: none;
     padding-top: 20px;
     padding-left: 20px;
-    
+   
     width: 100vw;
-    font-size: 25px;
+    font-size: 30px;
     margin-left: auto;
     margin-right: auto;
     border-bottom-left-radius: 20px;
@@ -37,6 +40,7 @@ body {
   background:      -o-linear-gradient(top, #000000 0%, #4c4e5a 30%, #000000 100%);
   background:     -ms-linear-gradient(top, #000000 0%, #4c4e5a 30%, #000000 100%);
   background:         linear-gradient(top, #000000 0%, #4c4e5a 30%, #000000 100%);
+    
 }
 .menu-item a {
     color: aliceblue;
@@ -56,4 +60,60 @@ margin-left:9vw;
   height: 60vh;
 margin-left: 5vw;
   margin-top: 1vh
+}
+.calc{
+    width: 100vw;
+    height: 200px;
+    font-size: 25px;
+      background: -webkit-linear-gradient(top, #000000 0%, #00CC00 30%, #000000 100%);
+  background:    -moz-linear-gradient(top, #000000 0%, #00CC00 30%, #000000 100%);
+  background:      -o-linear-gradient(top, #000000 0%, #00CC00 30%, #000000 100%);
+  background:     -ms-linear-gradient(top, #000000 0%, #00CC00 30%, #000000 100%);
+  background:         linear-gradient(top, #000000 0%, #00CC00 30%, #000000 100%); 
+    color: aliceblue;
+}
+#plus {
+    width: 25vw;
+    height: 25px;
+}
+#num1{
+    font-size: 30px;
+    width: 99vw;
+}
+#num2{
+    font-size: 30px;
+    width: 99vw;
+}
+result{
+    font-size: 30px;
+}
+button {
+    width: 25vw;
+    font-size: 20px;
+}
+.day {
+    position: absolute;
+    z-index: 9;
+    right: 0;
+    font-size: 25px;
+    display: flex;
+justify-content: flex-end;
+    color: gray;
+}
+.day p{
+    margin-top: -8px;
+    
+}
+.day2 {
+    position: absolute;
+    z-index: 9;
+    right: 0;
+    font-size: 25px;
+    display: flex;
+justify-content: flex-end;
+
+}
+.day2 p{
+    margin-bottom: -2px;
+    color: gray;
 }
